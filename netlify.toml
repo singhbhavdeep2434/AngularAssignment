@@ -1,6 +1,6 @@
 [build]
   command = "ng build --configuration=production"
-  publish = "dist/your-app-name"
+  publish = "dist/demo/browser"  # 👈 change this to match your app
 
 [[redirects]]
   from = "/*"
